@@ -1,6 +1,6 @@
-TABLE CREATION
+-- TABLE CREATION
 
-1.	TABLE GRP1_ACCOUNTREQUEST
+-- 1.	ACCOUNTREQUEST
 
 create table GROUP1_ACCOUNTREQUEST
 (
@@ -22,7 +22,7 @@ create table GROUP1_ACCOUNTREQUEST
    Status varchar2(10) DEFAULT 'ENTERED'
 );
  
-2.  TABLE GRP1_REGISTEREDINFO
+-- 2.  REGISTEREDINFO
 
 create table GRP1_REGISTEREDINFO
 (
@@ -47,7 +47,7 @@ create table GRP1_REGISTEREDINFO
    FOREIGN KEY (RequestId) REFERENCES GRP1_ACCOUNTREQUEST(RequestId)
 );
 
-3.  GRP1_TRANSACTIONINFO
+-- 3.  TRANSACTIONINFO
 
  create table GRP1_TRANSACTIONINFO
  (
@@ -59,3 +59,5 @@ create table GRP1_REGISTEREDINFO
     Transaction_Type varchar2(2),
     FOREIGN KEY (Account_Number) REFERENCES  GRP1_REGISTEREDINFO(Account_Number)
  );
+
+-- Trigger codes corresponding to each form mentioned in plsql_trigger_func.pdf file with demo
