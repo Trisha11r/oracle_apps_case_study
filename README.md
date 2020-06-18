@@ -10,9 +10,9 @@ Developing a GUI for online banking using Oracle Forms and Oracle EBS (E-Busines
 
 Requirements for Design & Development of the UI pages:
 
-    Customers should be able to open the account online.
-    They can also register for Online banking and avail the e-banking services.
-    Interest Calculator to be provided for Interest Calculations.
-    Generate a Statement for User Transactions.
-    Create separate login pages for Users and Managers.
+    1. Customers should be able to open the account online.
+    2. They can also register for Online banking and avail the e-banking services.
+    3. Interest Calculator to be provided for Interest Calculations.
+    4. Generate a Statement for User Transactions.
+    5. Create separate login pages for Users and Managers.
     
